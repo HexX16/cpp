@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\c\u002B\u002B\\sliding_window\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{542FC533-D1DD-4F2C-B11F-A7E2629DB0AD}|sliding_window\\sliding_window.vcxproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\c\u002B\u002B\\sliding_window\\sliding_window\\sliding_window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{542FC533-D1DD-4F2C-B11F-A7E2629DB0AD}|sliding_window\\sliding_window.vcxproj|solutionrelative:sliding_window\\sliding_window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sliding_window.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\c\u002B\u002B\\sliding_window\\sliding_window\\sliding_window.cpp",
+              "RelativeDocumentMoniker": "sliding_window\\sliding_window.cpp",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\c\u002B\u002B\\sliding_window\\sliding_window\\sliding_window.cpp",
+              "RelativeToolTip": "sliding_window\\sliding_window.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-07T08:26:00.59Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

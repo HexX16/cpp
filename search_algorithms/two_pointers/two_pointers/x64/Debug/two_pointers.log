@@ -1,0 +1,4 @@
+﻿  two_pointers.cpp
+C:\Users\Пользователь\Desktop\Programming\c++\two_pointers\two_pointers\two_pointers.cpp(32,1): warning C4715: two_pointers: значение возвращается не при всех путях выполнения
+C:\Users\Пользователь\Desktop\Programming\c++\two_pointers\two_pointers\two_pointers.cpp(14,1): warning C4715: default_On2: значение возвращается не при всех путях выполнения
+  two_pointers.vcxproj -> C:\Users\Пользователь\Desktop\Programming\c++\two_pointers\x64\Debug\two_pointers.exe
