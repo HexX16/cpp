@@ -3,6 +3,8 @@
 #include <random>
 
 void bubble_sort(std::vector<int>&, int);
+void swap(std::vector<int>&, int, int);
+void output_array(std::vector<int>&);
 
 int main()
 {

@@ -1,38 +1,4 @@
-﻿  bubble_sort.cpp
-C:\Users\Пользователь\Desktop\Programming\cpp\sort_algorithms\bubble_sort\bubble_sort\bubble_sort.cpp(16,2): error C3861: output_array: идентификатор не найден
-C:\Users\Пользователь\Desktop\Programming\cpp\sort_algorithms\bubble_sort\bubble_sort\bubble_sort.cpp(17,2): error C3861: bubble_sort: идентификатор не найден
-C:\Users\Пользователь\Desktop\Programming\cpp\sort_algorithms\bubble_sort\bubble_sort\bubble_sort.cpp(18,2): error C3861: output_array: идентификатор не найден
-C:\Users\Пользователь\Desktop\Programming\cpp\sort_algorithms\bubble_sort\bubble_sort\bubble_sort.cpp(24,4): error C2672: "swap": не найдена соответствующая перегруженная функция
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(2399,19):
-      может быть "void std::swap(std::vector<_Ty,_Alloc> &,std::vector<_Ty,_Alloc> &) noexcept"
-          C:\Users\Пользователь\Desktop\Programming\cpp\sort_algorithms\bubble_sort\bubble_sort\bubble_sort.cpp(24,4):
-          "void std::swap(std::vector<_Ty,_Alloc> &,std::vector<_Ty,_Alloc> &) noexcept": ожидаются аргументы 2 — 3 предоставлены
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3661,19):
-      или       "void std::swap(std::unique_ptr<_Ty,_Dx> &,std::unique_ptr<_Ty,_Dx> &) noexcept"
-          C:\Users\Пользователь\Desktop\Programming\cpp\sort_algorithms\bubble_sort\bubble_sort\bubble_sort.cpp(24,4):
-          "void std::swap(std::unique_ptr<_Ty,_Dx> &,std::unique_ptr<_Ty,_Dx> &) noexcept": ожидаются аргументы 2 — 3 предоставлены
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3255,6):
-      или       "void std::swap(std::weak_ptr<_Ty> &,std::weak_ptr<_Ty> &) noexcept"
-          C:\Users\Пользователь\Desktop\Programming\cpp\sort_algorithms\bubble_sort\bubble_sort\bubble_sort.cpp(24,4):
-          "void std::swap(std::weak_ptr<_Ty> &,std::weak_ptr<_Ty> &) noexcept": ожидаются аргументы 2 — 3 предоставлены
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(1990,6):
-      или       "void std::swap(std::shared_ptr<_Ty> &,std::shared_ptr<_Ty> &) noexcept"
-          C:\Users\Пользователь\Desktop\Programming\cpp\sort_algorithms\bubble_sort\bubble_sort\bubble_sort.cpp(24,4):
-          "void std::swap(std::shared_ptr<_Ty> &,std::shared_ptr<_Ty> &) noexcept": ожидаются аргументы 2 — 3 предоставлены
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3141,19):
-      или       "void std::swap(std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &) noexcept"
-          C:\Users\Пользователь\Desktop\Programming\cpp\sort_algorithms\bubble_sort\bubble_sort\bubble_sort.cpp(24,4):
-          "void std::swap(std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &) noexcept": ожидаются аргументы 2 — 3 предоставлены
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(489,19):
-      или       "void std::swap(std::pair<_Ty1,_Ty2> &,std::pair<_Ty1,_Ty2> &) noexcept(<expr>)"
-          C:\Users\Пользователь\Desktop\Programming\cpp\sort_algorithms\bubble_sort\bubble_sort\bubble_sort.cpp(24,4):
-          "void std::swap(std::pair<_Ty1,_Ty2> &,std::pair<_Ty1,_Ty2> &) noexcept(<expr>)": ожидаются аргументы 2 — 3 предоставлены
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\type_traits(2077,19):
-      или       "void std::swap(_Ty (&)[_Size],_Ty (&)[_Size]) noexcept(<expr>)"
-          C:\Users\Пользователь\Desktop\Programming\cpp\sort_algorithms\bubble_sort\bubble_sort\bubble_sort.cpp(24,4):
-          "void std::swap(_Ty (&)[_Size],_Ty (&)[_Size]) noexcept(<expr>)": ожидаются аргументы 2 — 3 предоставлены
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\type_traits(2074,19):
-      или       "void std::swap(_Ty &,_Ty &) noexcept(<expr>)"
-          C:\Users\Пользователь\Desktop\Programming\cpp\sort_algorithms\bubble_sort\bubble_sort\bubble_sort.cpp(24,4):
-          "void std::swap(_Ty &,_Ty &) noexcept(<expr>)": ожидаются аргументы 2 — 3 предоставлены
-  
+﻿bubble_sort.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl output_array(class std::vector<int,class std::allocator<int> > &)" (?output_array@@YAXAEAV?$vector@HV?$allocator@H@std@@@std@@@Z) в функции main.
+    Указание на символы, которые определены и могут подойти:
+      "void __cdecl output_array(class std::vector<int,class std::allocator<int> > const &)" (?output_array@@YAXAEBV?$vector@HV?$allocator@H@std@@@std@@@Z)
+C:\Users\vikto\Desktop\Programming\cpp\sort_algorithms\bubble_sort\x64\Debug\bubble_sort.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

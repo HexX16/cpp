@@ -1,15 +1,32 @@
 ﻿#include <iostream>
+#include <vector>
+#include <random>
 
-int binary_search(int array[], int array_size, int goal) {
+void gen_vector(std::vector<int>&);
+void output_array(const std::vector<int>&);
+int binary_search(const std::vector<int>&, int);
+std::random_device rd; // Недетерминированный источник семян
+
+int main()
+{
+	int array_size = 10'000;
+	std::vector<int> array(array_size);
+	int goal = 12023;
+
+	gen_vector(array);
+	binary_search(array, goal);
+}
+
+int binary_search(const std::vector<int>& array, int goal) {
 	//binary_search O(log(n))
 	int l = 0;
-	int r = array_size - 1;
+	int r = array.size() - 1;
 	int mid = 0;
 	while (l <= r) {
-		std::cout << "mid = " << mid << "\t" << "l = " << l << "\t" << "r = " << r << std::endl;
+		//std::cout << "mid = " << mid << "\t" << "l = " << l << "\t" << "r = " << r << std::endl;
 		mid = (l + r) / 2;
 		if (array[mid] == goal) {
-			std::cout << "Goal = " << "array["<<mid<<"] = "<< array[mid]<<std::endl;
+			std::cout << "Goal = " << "array[" << mid << "] = " << array[mid] << std::endl;
 			return 0;
 		}
 		else if (array[mid] < goal) {
@@ -23,11 +40,26 @@ int binary_search(int array[], int array_size, int goal) {
 	return -1;
 }
 
-int main()
-{
-	int array[8]{ 1, 3, 6, 10, 11, 20, 22, 23 };
-	int array_size = sizeof(array) / sizeof(array[0]);
-	int goal = 21;
-	binary_search(array, array_size, goal);
+void gen_vector(std::vector<int>& array) {
+	array[0] = 1;
+	static std::mt19937 gen(rd()); // Генератор Mersenne Twister
+	std::uniform_int_distribution<int> dist(1, 10); // Распределение чисел
+	int dg = 0;
+	for (int i = 1; i < array.size(); i++) {	
+		dg = dist(gen);
+		if (dg <= 5) {
+			array[i] = array[i - 1] + 1;
+		}
+		else{
+			array[i] = array[i - 1] + 3;
+		}
+	}
+}
+
+void output_array(const std::vector<int>& array) {
+	for (int i = 0; i < array.size(); i++) {
+		std::cout << array[i] << " ";
+	}
+	std::cout << "\n\n";
 }
 
