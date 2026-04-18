@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\sort_algorithms\\bubble_sort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7BB915-4B41-4CEA-8D81-62B777ACA24B}|bubble_sort\\bubble_sort.vcxproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\sort_algorithms\\bubble_sort\\bubble_sort\\bubble_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A7BB915-4B41-4CEA-8D81-62B777ACA24B}|bubble_sort\\bubble_sort.vcxproj|solutionrelative:bubble_sort\\bubble_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bubble_sort.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\sort_algorithms\\bubble_sort\\bubble_sort\\bubble_sort.cpp",
+              "RelativeDocumentMoniker": "bubble_sort\\bubble_sort.cpp",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\sort_algorithms\\bubble_sort\\bubble_sort\\bubble_sort.cpp",
+              "RelativeToolTip": "bubble_sort\\bubble_sort.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-17T12:25:16.553Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
