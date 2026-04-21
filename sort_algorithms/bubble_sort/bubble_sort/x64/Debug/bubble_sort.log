@@ -1,4 +1,3 @@
-﻿bubble_sort.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl output_array(class std::vector<int,class std::allocator<int> > &)" (?output_array@@YAXAEAV?$vector@HV?$allocator@H@std@@@std@@@Z) в функции main.
-    Указание на символы, которые определены и могут подойти:
-      "void __cdecl output_array(class std::vector<int,class std::allocator<int> > const &)" (?output_array@@YAXAEBV?$vector@HV?$allocator@H@std@@@std@@@Z)
-C:\Users\vikto\Desktop\Programming\cpp\sort_algorithms\bubble_sort\x64\Debug\bubble_sort.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+﻿  bubble_sort.cpp
+C:\Users\vikto\Desktop\Programming\cpp\sort_algorithms\bubble_sort\bubble_sort\bubble_sort.cpp(26,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  bubble_sort.vcxproj -> C:\Users\vikto\Desktop\Programming\cpp\sort_algorithms\bubble_sort\x64\Debug\bubble_sort.exe
