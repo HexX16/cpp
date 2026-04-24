@@ -6,5 +6,5 @@ public:
 	int wrist;
 	int backpress;
 	int sidepress;
-	Enemy(std::string , int w, int b, int s);
+	Enemy(std::string, int w, int b, int s);
 };

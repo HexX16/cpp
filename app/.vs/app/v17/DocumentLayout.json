@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\",
+  "WorkspaceRootPath": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,30 +30,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Enemy.cpp",
-              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\Enemy.cpp",
-              "RelativeDocumentMoniker": "app\\Enemy.cpp",
-              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\Enemy.cpp",
-              "RelativeToolTip": "app\\Enemy.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-23T09:52:54.913Z",
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Player.h",
+              "RelativeDocumentMoniker": "app\\Player.h",
+              "ToolTip": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Player.h",
+              "RelativeToolTip": "app\\Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-24T06:25:31.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Player.cpp",
+              "RelativeDocumentMoniker": "app\\Player.cpp",
+              "ToolTip": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Player.cpp",
+              "RelativeToolTip": "app\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-24T06:25:24.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Enemy.h",
-              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\Enemy.h",
+              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Enemy.h",
               "RelativeDocumentMoniker": "app\\Enemy.h",
-              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\Enemy.h",
+              "ToolTip": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Enemy.h",
               "RelativeToolTip": "app\\Enemy.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-23T09:40:04.02Z",
               "EditorCaption": ""
@@ -53,12 +74,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Enemy.cpp",
+              "RelativeDocumentMoniker": "app\\Enemy.cpp",
+              "ToolTip": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Enemy.cpp",
+              "RelativeToolTip": "app\\Enemy.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-23T09:52:54.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "app.cpp",
-              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\app.cpp",
+              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\app.cpp",
               "RelativeDocumentMoniker": "app\\app.cpp",
-              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\app.cpp",
+              "ToolTip": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\app.cpp",
               "RelativeToolTip": "app\\app.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-23T09:33:08.389Z",
               "EditorCaption": ""
