@@ -1,10 +1,10 @@
-#include "Enemy.h"
 #include <stdexcept>
+#include "Enemy.h"
+#include "Stats.h"
 
 
-Enemy::Enemy(std::string n, int w, int b, int s) : name(n)
+Enemy::Enemy(std::string name, Stats stats_enemy, std::string tech)
+	: name(name), stats(stats_enemy), tech(tech)
 {
-	wrist = w;
-	backpress = b;
-	sidepress = s;
+
 }

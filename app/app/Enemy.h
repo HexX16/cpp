@@ -1,10 +1,13 @@
 #pragma once
 #include <string>
+#include "Stats.h"
+
 class Enemy {
 public:
-	std::string name;
-	int wrist;
-	int backpress;
-	int sidepress;
-	Enemy(std::string, int w, int b, int s);
+    std::string name;
+    Stats stats;
+    std::string tech;
+
+
+    Enemy(std::string name, Stats stats_enemy, std::string tech);
 };

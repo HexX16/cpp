@@ -1,14 +1,9 @@
-#include "Player.h"
 #include <stdexcept>
+#include "Player.h"
+#include "Stats.h"
 
-Player::Player(std::string n, int w, int b, int s) : name(n)
+Player::Player(std::string name, Stats stats_player, std::string tech)
+	: name(name), stats(stats_player), tech(tech)
 {
-	if (w < 0 || w > 100 || b < 0 || b>100 || s < 0 || s>100)
-	{
-		throw std::invalid_argument("Enemy value must be 0-100");
-	}
 
-	wrist = w;
-	backpress = b;
-	sidepress = s;
 }

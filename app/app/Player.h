@@ -1,13 +1,14 @@
 #pragma once
 #include <string>
+#include "Stats.h"
 
 class Player
 {
 public:
-	std::string name;
-	int wrist;
-	int backpress;
-	int sidepress;
-	Player(std::string, int w, int b, int s);
+    std::string name;
+    Stats stats;
+    std::string tech;
+
+    Player(std::string name, Stats stats_player, std::string tech);
 };
 
