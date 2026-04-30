@@ -24,6 +24,12 @@
     <ClCompile Include="Player.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBuilder.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Enemy.h">
@@ -33,6 +39,15 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Stats.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsWeight.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBuilder.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
