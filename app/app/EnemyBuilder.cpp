@@ -2,22 +2,6 @@
 #include "StatsWeight.h"
 #include "EnemyBuilder.h"
 
-StatsWeight build_defense_hook() 
-{
-	StatsWeight stats_weight;
-	stats_weight.backpress = 5;
-    stats_weight.biceps = 30;
-    stats_weight.fingers = 15;
-    stats_weight.high_wrist = 5;
-    stats_weight.low_wrist = 15;
-    stats_weight.pronation = 5;
-    stats_weight.rise = 5;
-    stats_weight.sidepress = 15;
-    stats_weight.supination = 5;
-    stats_weight.triceps = 5;
-    return stats_weight;
-}
-
 StatsWeight build_hook()
 {
     StatsWeight stats_weight;

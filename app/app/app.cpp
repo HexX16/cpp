@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <random>
+#include <cctype>
 #include "Enemy.h"
 #include "Player.h"
 #include "Stats.h"
@@ -16,25 +17,13 @@ Stats build_stats(const std::map <std::string, int>&);
 Player create_player();
 Enemy create_enemy();
 Stats build_stats_from_weight(const StatsWeight&, int);
+bool fight(Player, Enemy);
+Tech to_tech(std::string&);
+
 
 int main()
 {
     Enemy enemy = create_enemy();
-    Player player = create_player();
-
-    std::cout << "\n========== PLAYER ==========\n";
-    std::cout << player.name << ": tech - " << player.tech << "\n";
-    std::cout << "backpress   : " << player.stats.backpress << "\n";
-    std::cout << "biceps      : " << player.stats.biceps << "\n";
-    std::cout << "fingers     : " << player.stats.fingers << "\n";
-    std::cout << "high_wrist  : " << player.stats.high_wrist << "\n";
-    std::cout << "low_wrist   : " << player.stats.low_wrist << "\n";
-    std::cout << "pronation   : " << player.stats.pronation << "\n";
-    std::cout << "rise        : " << player.stats.rise << "\n";
-    std::cout << "sidepress   : " << player.stats.sidepress << "\n";
-    std::cout << "supination  : " << player.stats.supination << "\n";
-    std::cout << "triceps     : " << player.stats.triceps << "\n";
-
     std::cout << "\n========== ENEMY ==========\n";
     std::cout << enemy.name << ": tech - " << enemy.tech << "\n";
     std::cout << "backpress   : " << enemy.stats.backpress << "\n";
@@ -48,6 +37,22 @@ int main()
     std::cout << "supination  : " << enemy.stats.supination << "\n";
     std::cout << "triceps     : " << enemy.stats.triceps << "\n";
 
+
+    Player player = create_player();
+    std::cout << "\n========== PLAYER ==========\n";
+    std::cout << player.name << ": tech - " << player.tech << "\n";
+    std::cout << "backpress   : " << player.stats.backpress << "\n";
+    std::cout << "biceps      : " << player.stats.biceps << "\n";
+    std::cout << "fingers     : " << player.stats.fingers << "\n";
+    std::cout << "high_wrist  : " << player.stats.high_wrist << "\n";
+    std::cout << "low_wrist   : " << player.stats.low_wrist << "\n";
+    std::cout << "pronation   : " << player.stats.pronation << "\n";
+    std::cout << "rise        : " << player.stats.rise << "\n";
+    std::cout << "sidepress   : " << player.stats.sidepress << "\n";
+    std::cout << "supination  : " << player.stats.supination << "\n";
+    std::cout << "triceps     : " << player.stats.triceps << "\n";
+
+    bool result = fight(player, enemy);
     return 0;
 }
 
@@ -158,4 +163,54 @@ Stats build_stats_from_weight(const StatsWeight& stats_weight, int limit)
     stats.triceps = distribute(stats_weight.triceps);
 
     return stats;
+}
+
+Tech to_tech(std::string& s) {
+    if (s == "hook") return HOOK;
+    if (s == "kingsmove") return KINGSMOVE;
+    if (s == "lowhand toproll") return LHTR;
+    if (s == "post toproll") return PTR;
+    if (s == "flop press") return FLOP;
+
+    return HOOK; // fallback
+}
+
+bool fight(Player player, Enemy enemy) {
+    Tech tech_player = to_tech(player.tech);
+    Tech tech_enemy = to_tech(enemy.tech);
+
+    Weights fight_weights[TECH_COUNT][TECH_COUNT];
+    init_weights(fight_weights);
+
+    float matchup_coef = matchup[tech_player][tech_enemy];
+    Weights matchup_weights = fight_weights[tech_player][tech_enemy];
+    player.stats.backpress *= matchup_weights.backpress;
+    player.stats.biceps *= matchup_weights.biceps;
+    player.stats.fingers *= matchup_weights.fingers;
+    player.stats.high_wrist *= matchup_weights.high_wrist;
+    player.stats.low_wrist *= matchup_weights.low_wrist;
+    player.stats.pronation *= matchup_weights.pronation;
+    player.stats.rise *= matchup_weights.rise;
+    player.stats.sidepress *= matchup_weights.sidepress;
+    player.stats.supination *= matchup_weights.supination;
+    player.stats.triceps *= matchup_weights.triceps;
+
+    float score_player = matchup_coef * (player.stats.backpress + player.stats.biceps + player.stats.fingers + player.stats.high_wrist + player.stats.low_wrist
+        + player.stats.pronation + player.stats.rise + player.stats.sidepress + player.stats.supination + player.stats.triceps);
+    float score_enemy = enemy.stats.backpress + enemy.stats.biceps + enemy.stats.fingers + enemy.stats.high_wrist + enemy.stats.low_wrist
+        + enemy.stats.pronation + enemy.stats.rise + enemy.stats.sidepress + enemy.stats.supination + enemy.stats.triceps;
+
+    float result = score_player / score_enemy;
+
+    if (result >= 1)
+    {
+        std::cout << "You win" << std::endl;
+        return true;
+    }
+
+    else
+    {
+        std::cout << "You lose" << std::endl;
+        return false;
+    }
 }

@@ -1,34 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\",
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\TechRegistry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\TechRegistry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\EnemyBuilder.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\EnemyBuilder.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\EnemyBuilder.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\StatsWeight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\StatsWeight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\GameData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\GameData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\GameData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\EnemyBuilder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\EnemyBuilder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Stats.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\Stats.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\GameData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A652D39-A1D6-4CF8-82C2-C4B2DEFCDDB8}|app\\app.vcxproj|solutionrelative:app\\GameData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TechRegistry.h",
-              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\TechRegistry.h",
-              "RelativeDocumentMoniker": "app\\TechRegistry.h",
-              "ToolTip": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\TechRegistry.h",
-              "RelativeToolTip": "app\\TechRegistry.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-30T08:22:49.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Stats.h",
-              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Stats.h",
-              "RelativeDocumentMoniker": "app\\Stats.h",
-              "ToolTip": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\Stats.h",
-              "RelativeToolTip": "app\\Stats.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-30T08:07:03.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnemyBuilder.h",
-              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\EnemyBuilder.h",
-              "RelativeDocumentMoniker": "app\\EnemyBuilder.h",
-              "ToolTip": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\EnemyBuilder.h",
-              "RelativeToolTip": "app\\EnemyBuilder.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-30T07:42:16.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameData.cpp",
-              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\GameData.cpp",
-              "RelativeDocumentMoniker": "app\\GameData.cpp",
-              "ToolTip": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\GameData.cpp",
-              "RelativeToolTip": "app\\GameData.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-30T07:41:44.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "EnemyBuilder.cpp",
-              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\EnemyBuilder.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\EnemyBuilder.cpp",
               "RelativeDocumentMoniker": "app\\EnemyBuilder.cpp",
-              "ToolTip": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\EnemyBuilder.cpp",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\EnemyBuilder.cpp",
               "RelativeToolTip": "app\\EnemyBuilder.cpp",
-              "ViewState": "AgIAACEAAAAAAAAAAAAUwEQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-30T07:09:28.099Z",
+              "WhenOpened": "2026-05-06T06:15:10.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StatsWeight.h",
-              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\StatsWeight.h",
-              "RelativeDocumentMoniker": "app\\StatsWeight.h",
-              "ToolTip": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\StatsWeight.h",
-              "RelativeToolTip": "app\\StatsWeight.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Title": "GameData.h",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\GameData.h",
+              "RelativeDocumentMoniker": "app\\GameData.h",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\GameData.h",
+              "RelativeToolTip": "app\\GameData.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-30T07:05:58.133Z",
+              "WhenOpened": "2026-05-06T05:46:33.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameData.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\GameData.cpp",
+              "RelativeDocumentMoniker": "app\\GameData.cpp",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\GameData.cpp",
+              "RelativeToolTip": "app\\GameData.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-04T09:00:53.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "app.cpp",
-              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\app.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\app.cpp",
               "RelativeDocumentMoniker": "app\\app.cpp",
-              "ToolTip": "C:\\Users\\vikto\\Desktop\\Programming\\cpp\\app\\app\\app.cpp",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\Programming\\cpp\\app\\app\\app.cpp",
               "RelativeToolTip": "app\\app.cpp",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAIMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-23T09:33:08.389Z",
               "EditorCaption": ""
